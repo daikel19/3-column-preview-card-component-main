@@ -1,0 +1,128 @@
+:root {
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+  --Transparentwhiteparagraphs: hsla(0, 0%, 100%, 0.75);
+  --Verylightgraybackgroundheadingsbuttons: hsl(0, 0%, 95%);
+  --parrafo: "Lexend Deca", sans-serif;
+  --titulo: "Big Shoulders Display", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 15px;
+  background-color: var(--Verylightgraybackgroundheadingsbuttons);
+}
+
+.caja {
+    padding: 1rem;
+}
+
+.caja2 {
+  background-color: var(--Brightorange);
+  padding: 1rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+svg{
+  max-width: 100%;
+  height: rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.caja2 p{
+    color: var(--Transparentwhiteparagraphs);
+    font-family: var(--parrafo);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.caja2 button{
+    border-radius: 2rem;
+    border: none;
+    height: 3.5rem;
+    width: 11rem;
+    color: var(--Brightorange);
+    font-family: var(--parrafo);
+}
+
+.caja2 h2 {
+  color: var(--Verylightgraybackgroundheadingsbuttons);
+  font-family: var(--titulo);
+  font-size: 3rem;
+}
+
+.contenido {
+  background-color: var(--Darkcyan);
+  padding: 1rem;
+  
+}
+
+.contenido button{
+    border-radius: 2rem;
+    border: none;
+    height: 3.5rem;
+    width: 11rem;
+    color: var(--Darkcyan);
+    font-family: var(--parrafo);
+}
+
+.contenido p{
+    color: var(--Transparentwhiteparagraphs);
+    font-family: var(--parrafo);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.contenido h2 {
+  color: var(--Verylightgraybackgroundheadingsbuttons);
+  font-family: var(--titulo);
+  font-size: 3rem;
+}
+
+.contenido2 {
+  background-color: var(--Verydarkcyan);
+  padding: 1rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.contenido2 button{
+    border-radius: 2rem;
+    border: none;
+    height: 3.5rem;
+    width: 11rem;
+    color: var(--Verydarkcyan);
+    font-family: var(--parrafo);
+}
+
+.contenido2 p{
+    color: var(--Transparentwhiteparagraphs);
+    font-family: var(--parrafo);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.contenido2 h2 {
+  color: var(--Verylightgraybackgroundheadingsbuttons);
+  font-family: var(--titulo);
+  font-size: 3rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
