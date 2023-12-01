@@ -32,6 +32,10 @@ body {
 
 .caja {
   padding: 1rem;
+  max-width: 375px;
+  
+  
+  
 }
 
 @media (min-width: 1440px) {
@@ -52,6 +56,7 @@ body {
   background-color: var(--Brightorange);
   padding: 1rem;
   border-radius: 0.5rem 0.5rem 0rem 0rem;
+
 }
 
 @media (min-width: 1440px) {
