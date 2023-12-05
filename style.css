@@ -56,15 +56,19 @@ body {
 
 .caja2 {
   background-color: var(--Brightorange);
-  padding: 1rem;
+  padding: 3rem;
   border-radius: 0.5rem 0.5rem 0rem 0rem;
 
+}
+
+.sedans{
+  width: 6rem;
 }
 
 @media (min-width: 1440px) {
   .caja2 {
     border-radius: 0.5rem 0rem 0rem 0.5rem;
-    padding: 3rem;
+    padding: 2.7rem;
   }
 }
 
@@ -98,7 +102,11 @@ body {
 
 .contenido {
   background-color: var(--Darkcyan);
-  padding: 1rem;
+  padding: 3rem;
+}
+
+.suvs{
+  width: 5rem;
 }
 
 @media (min-width: 1440px) {
@@ -138,8 +146,12 @@ body {
 
 .contenido2 {
   background-color: var(--Verydarkcyan);
-  padding: 1rem;
+  padding: 3rem;
   border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.luxury{
+  width: 5rem;
 }
 
 @media (min-width: 1440px) {
